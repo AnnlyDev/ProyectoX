@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Login y Registro</title>
+</head>
+<body>
+
+    <h2>Crear usuario</h2>
+    <form id="registerForm">
+        <input type="text" id="regUser" placeholder="Usuario" required>
+        <input type="password" id="regPass" placeholder="Contraseña" required>
+        <button type="submit">Registrar</button>
+    </form>
+
+    <h2>Iniciar sesión</h2>
+    <form id="loginForm">
+        <input type="text" id="logUser" placeholder="Usuario" required>
+        <input type="password" id="logPass" placeholder="Contraseña" required>
+        <button type="submit">Ingresar</button>
+    </form>
+
+    <p id="msg"></p>
+
+    <!-- SOLO ESTE SCRIPT VA EN EL HTML -->
+    <script src="app.js"></script>
+
+</body>
+</html>
